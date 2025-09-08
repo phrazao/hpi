@@ -116,7 +116,8 @@ const setupProject = () => {
       }
     });
 
-    const exampleSite = path.join(rootFolder, "exampleSite");
+    //const exampleSite = path.join(rootFolder, "exampleSite");
+    const exampleSite = path.join(rootFolder, "");
     iterateFilesAndFolders(exampleSite, { destinationRoot: rootFolder });
     deleteFolder(exampleSite);
   } else {
