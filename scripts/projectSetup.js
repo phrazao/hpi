@@ -83,7 +83,8 @@ const setupProject = () => {
     // remove this part if you don't using theme demo as a module
     [
       {
-        filepath: path.join(rootFolder, "exampleSite/hugo.toml"),
+        //filepath: path.join(rootFolder, "exampleSite/hugo.toml"),
+        filepath: path.join(rootFolder, "hugo.toml"),
         regex: /^.*theme\s*=\s*("[^"\]]+"|\S+)/m,
       },
       {
