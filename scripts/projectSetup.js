@@ -36,7 +36,8 @@ const toggleComment = ({ filepath, regex }) => {
 };
 
 const getFolderName = (rootFolder) => {
-  const configPath = path.join(rootFolder, "exampleSite/hugo.toml");
+  const configPath = path.join(rootFolder, "hugo.toml");
+  //const configPath = path.join(rootFolder, "exampleSite/hugo.toml");
   const getConfig = fs.readFileSync(configPath, "utf8");
   const match = getConfig.match(/theme\s*=\s*\[?"([^"\]]+)"\]?/);
   let selectedTheme = null;
