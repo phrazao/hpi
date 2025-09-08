@@ -2,48 +2,24 @@
 
 # main menu
 [[main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[main]]
-name = "About"
+name = "Acerca"
 url = "/about"
-weight = 2
+weight = 10
 
 [[main]]
-name = "Elements"
-url = "/elements"
-weight = 3
+name = "Jogos"
+url = "/games"
+weight = 20
 
 [[main]]
-weight = 4
-name = "Pages"
+name = "Novidades"
+url = "/news"
+weight = 30
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
+name = "Contacto"
 url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+weight = 40
 
 
 # footer menu
